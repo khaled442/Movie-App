@@ -1,0 +1,74 @@
+export const movieData = [
+  {
+    id: Math.random(),
+    url: "data:image/jpeg;base64,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",
+    title: "Dachra",
+    rating: 5,
+    description:
+      "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s’aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin.",
+  },
+  {
+    id: Math.random(),
+    url: "https://img7.cdn.cinoche.com/images/b0e54232d20f419c09bab3d5488cb3e6.jpg",
+    title: "Courrier",
+    rating: 5,
+    description:
+      "Dans cette affaire issue de leurs dossiers secrets – l'une des plus spectaculaires – , Ed et Lorrain commencent par se battre pour protéger l'âme d'un petit garçon, puis basculent dans un monde radicalement inconnu. Ce sera la première fois dans l'histoire des États-Unis qu'un homme soupçonné de meurtre plaide la possession démoniaque comme ligne de défense.",
+  },
+  {
+    id: Math.random(),
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28ai8J4qcc1Rf-FajaHterLcw7idGCa--iA&usqp=CAU",
+    title: "Me Befor You",
+    rating: 3,
+    description:
+      "Un jeune couple américain spécialisé dans l'urbex (exploration urbaine) décide d’aller explorer une maison réputée hantée qui a été ensevelie sous un lac artificiel. Mais celle-ci semble se refermer sur eux et le couple se retrouve prisonnier de cet endroit.",
+  },
+  {
+    id: Math.random(),
+    url: "https://fr.web.img6.acsta.net/c_310_420/pictures/21/06/07/14/25/1089996.jpg",
+    title: "Homme en colére",
+    rating: 4,
+    description:
+      "Travaillant dans l'ombre de son père, une légende locale de la police, le lieutenant Ezekiel «Zeke» Banks et son nouveau partenaire enquêtent sur une série de meurtres macabres dont le mode opératoire rappelle étrangement celui d’un tueur en série qui sévissait jadis dans la ville",
+  },
+  {
+    id: Math.random(),
+    url: "https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYVCVEwCabqI9_5yn_8QaImi7CNKfWBid3hOsgbkVefnkPfIz-NdkmLlwJeOWhn8AthhLfmMI29B34bpLxx29KHU-qrGRaDH_v8EEDr4H_3Cpd2DPvtTjhQ5wZm1.jpg?r=7e0",
+    title: "Zone of Ride ",
+    rating: 3,
+    description:
+      "Adela et son mari Juan habitent au Texas, où Juan travaille dans le ranch de la très aisée famille Tucker. Juan gagne l’estime du patriarche Caleb Tucker, ce qui déclenche la jalousie de Dylan, son fils. La matinée suivant le déchainement nocturne de violence annuelle, un groupe masqué attaque la famille Tucker, dont la femme de Dylan",
+  },
+  {
+    id: Math.random(),
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIoyz80DmTXRkLwAkRCkdMjKPDktQ2Q9Gug&usqp=CAU",
+    title: "Force of Nature",
+    rating: 2,
+    description:
+      "En vacances dans les tropiques, une famille s’arrête pour quelques heures sur un atoll isolé où ils découvrent avec effroi que leur vieillissement y est drastiquement accéléré et que leur vie entière va se retrouver réduite à cette ultime journée.",
+  },
+  {
+    id: Math.random(),
+    url: "https://img.gaming.gentside.com/article/gallery/14-insidious-de-james-wan-2010_2b16ae9f5f22214569a5167efc944cb0b2212a57.jpg",
+    title: "Insidious",
+    rating: 5,
+    description:
+      "Dans la famille de Justine, 16 ans, tout le monde est vétérinaire et végétarien. Dès son premier jour à l'école vétérinaire, Justine dévie radicalement des principes familiaux et mange de la viande. Les conséquences ne tardent pas et Justine révèle alors sa véritable nature.",
+  },
+  {
+    id: Math.random(),
+    url: "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSnp8RvAUl_ExomlOiSK6ASRmvF49iC1xkTCcg7hBfJ7uSf-oVUf2JanQMHZLhyCy_I9-Py6YRHkpWgln-4cp-tluLI.jpg?r=288",
+    title: "Dont Breathe",
+    rating: 4,
+    description:
+      "Une famille tente de survivre sous la menace de mystérieuses créatures qui attaquent au moindre bruit. S’ils vous entendent, il est déjà trop tard.",
+  },
+  {
+    id: Math.random(),
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaj5Sgv0aqahMIfV26QF9FiRh9ZhyQFjfdBg&usqp=CAU",
+    title: "Hall",
+    rating: 1,
+    description:
+      "Dans la famille de Justine, 16 ans, tout le monde est vétérinaire et végétarien. Dès son premier jour à l'école vétérinaire, Justine dévie radicalement des principes familiaux et mange de la viande. Les conséquences ne tardent pas et Justine révèle alors sa véritable nature.",
+  },
+];
