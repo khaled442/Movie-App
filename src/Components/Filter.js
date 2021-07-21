@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { Form } from "react-bootstrap";
 import Rate from "./Rate";
 
-const Filter = ({ handleSearch, searchValue,handelRate,searchRating}) => {
+const Filter = ({ handleSearch, searchValue, handelRate, searchRating }) => {
   return (
     <div>
       <div>
@@ -20,26 +20,11 @@ const Filter = ({ handleSearch, searchValue,handelRate,searchRating}) => {
             Movie Time
           </Navbar.Brand>
           <Nav>
-            <Nav.Link
-              style={{ marginTop: "30px" }}
-              href="https://back.egybest.co/movies/"
-              target="_blank"
-            >
-              Home
-            </Nav.Link>
-            <Nav.Link
-              style={{ marginTop: "30px" }}
-              href="#favorite"
-            >
+            <Nav.Link style={{ marginTop: "30px" }}>Home</Nav.Link>
+            <Nav.Link style={{ marginTop: "30px" }} href="#favorite">
               Favourite
             </Nav.Link>
-            <Nav.Link
-              style={{ marginTop: "30px" }}
-              href="https://editorial.rottentomatoes.com/guide/2021-best-movies/"
-              target='_blank'
-            >
-              News
-            </Nav.Link>
+            <Nav.Link style={{ marginTop: "30px" }}>News</Nav.Link>
             <div
               style={{
                 width: "400px",
@@ -61,8 +46,7 @@ const Filter = ({ handleSearch, searchValue,handelRate,searchRating}) => {
                   type="text"
                 />
               </Form>
-              <Rate handelRate={handelRate} searchRating={searchRating}/>
-
+              <Rate handelRate={handelRate} searchRating={searchRating} />
             </div>
           </Nav>
         </Navbar>
