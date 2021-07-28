@@ -18,7 +18,7 @@ const MovieCard = ({ el }) => {
       <Rate rating={el.rating} />
       <buton className="buton">
         <Link
-          to={`Description/${el.title}`}
+          to={`Description/${el.id}`}
         >
           Regarder
         </Link>

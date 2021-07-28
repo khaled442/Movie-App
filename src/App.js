@@ -27,8 +27,8 @@ const App = () => {
 
         <Switch className="row">
           <Route
-            path="/Description/:name"
-            render={() => <Description listMovie={movies}  />}
+            path="/Description/:id"
+            render={(props) => <Description  {...props} listMovie={movies} />}
           />
           <Route
             exact
